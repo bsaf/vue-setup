@@ -1,0 +1,204 @@
+// My extensions to Basscss (http://basscss.com/)
+//
+//  Contents
+//  --------
+//  - Typography
+//  - Type colour
+//  - Borders + radius
+//  - Background
+//  - Layout + position
+//  - Transition + animation
+//  - Shadow
+//  - Opacity
+//  - Height
+//  - Gradient
+//  - iOS
+
+@import 'variables'; // so we can set up helpers
+
+// Typography
+// ----------
+// Update h1-h6 to match project requirements or create new
+// project-specific file for it.
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.h0 {
+  font-size: 26px;
+}
+
+.h1 {
+  font-size: 20px;
+}
+
+.h2 {
+  font-size: 18px;
+}
+
+.h3 {
+  font-size: 16px;
+}
+
+// Type colour
+// -----------
+// Helpers to access colours from a variables.scss file
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: $grey;
+}
+
+.lightGrey {
+  color: $lightGrey;
+}
+
+.blue {
+  color: $blue;
+}
+
+.green {
+  color: $green;
+}
+
+// Borders + radius
+// -----------------
+// Extensions to the border helpers
+
+.border-blue {
+  border-color: $blue;
+}
+
+.border-lightgrey {
+  border-color: $lightGrey;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-wide {
+  border-width: 2px;
+}
+
+.pill {
+  border-radius: 9999px;
+}
+
+// Backgrounds
+// -----------
+// Helpers for assigning background colours.
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: $grey;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-lightGrey {
+  background-color: $lightGrey;
+}
+
+.bg-white50 {
+  background-color: rgba(255,255,255,0.5);
+}
+
+// Layout + position
+// -----------------
+// Additional helpers for layout.
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.xy-0 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+// Transition + animation
+// -----------------------
+// Helpers for transitions.
+
+.will-change-transform {
+  will-change: transform;
+}
+
+// Shadow
+// ------
+// Shadow helpers. Can be customised per project.
+
+.shadow-diffuse {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.14);
+}
+
+.shadow-tight {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.20);
+}
+
+// Opacity
+// -------
+// Opacity helpers.
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.invisible {
+  opacity: 0;
+  pointer-events: none;
+}
+
+// Height
+// ------
+// Height helpers.
+
+.height-100 {
+  height: 100%;
+}
+
+// Gradient
+// --------
+// Gradient helpers. Can be customised per project.
+
+.gold-gradient {
+  background-image: radial-gradient(70% 140%, #FFE26D 10%, #E7B742 62%, #CD9E2D 100%);
+}
+
+.blue-gradient {
+  background-image: linear-gradient(0deg, #1E2A5A 0%, #000000 100%);
+}
+
+// iOS
+// ---
+// Specific helpers for iOS
+
+.statusbar {
+  background-color: black;
+  height: 20px;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.translate-3d {
+  -webkit-transform: translate3d(0,0,0)
+}
