@@ -6,7 +6,7 @@ Prototyping setup for new Vue projects.
 - [ ] Use Vuex
 - [ ] Add [Basscss](http://basscss.com/) (see below), or try [Tachyons](http://tachyons.io/docs/)
 - [ ] Create a `components` and `views` folder
-- [ ] Create a good, simple, Blank.vue template
+- [ ] Put a [BlankComponent.vue](BlankComponent.vue) template in `/components`
 - [ ] Put fonts, images, sass into a single `assets` folder
 - [ ] Set up colours in `variables.scss`
 - [ ] Import your [own toolkit additions](basil-toolkit.scss) as a single CSS file
