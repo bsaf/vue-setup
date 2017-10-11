@@ -4,7 +4,7 @@ Prototyping setup for new Vue projects.
 
 - [ ] Use Vue Router
 - [ ] Use Vuex
-- [ ] Add [Basscss](http://basscss.com/) (or try [Tachyons](http://tachyons.io/docs/))
+- [ ] Add [Basscss](http://basscss.com/) (see below), or try [Tachyons](http://tachyons.io/docs/)
 - [ ] Create a `components` and `views` folder
 - [ ] Create a good, simple, Blank.vue template
 - [ ] Put fonts, images, sass into a single `assets` folder
