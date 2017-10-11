@@ -1,5 +1,7 @@
 # Vue setup checklist
 
+Prototyping setup for new Vue projects.
+
 - [ ] Use Vue Router
 - [ ] Use Vuex
 - [ ] Add [Basscss](http://basscss.com/) (or try [Tachyons](http://tachyons.io/docs/))
