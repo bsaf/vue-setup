@@ -5,6 +5,8 @@
 </template>
 
 <script>
+//@ts-check
+
 export default {
   // global
   name: "blank",
